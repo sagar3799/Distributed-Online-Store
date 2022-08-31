@@ -11,12 +11,14 @@ bacup_webserver - http://18.219.37.235:5000/
 node 'x' with 'ip' just died
 
 # setup git on server via ssh
+```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
 ssh-add /home/ubuntu/.ssh/id_ed25519
 
 # copy key to clipboard
 cat /home/ubuntu/.ssh/id_ed25519.pub
+```
 
 Instructions for Database servers
 sudo apt update
