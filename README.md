@@ -17,18 +17,6 @@ ssh-add /home/ubuntu/.ssh/id_ed25519
 
 # copy key to clipboard
 cat /home/ubuntu/.ssh/id_ed25519.pub
-# copy key to clipboard
-cat /home/ubuntu/.ssh/id_ed25519.pub
-paste this to https://github.com/settings/keys
-
-Instructions for webserver
-sudo apt update
-sudo apt install python3-pip
-sudo apt-get python3-venv
-python3 -m venv webserver
-source webserver/bin/activate
-cd ds_webserver
-pip3 install -r requirements.txt
 
 Instructions for Database servers
 sudo apt update
