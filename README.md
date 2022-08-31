@@ -21,7 +21,19 @@ cat /home/ubuntu/.ssh/id_ed25519.pub
 ```
 paste this to https://github.com/settings/keys
 
-Instructions for Database servers
+# Instructions for webserver
+```
+sudo apt update
+sudo apt install python3-pip
+sudo apt-get python3-venv
+python3 -m venv webserver
+source webserver/bin/activate
+cd ds_webserver
+pip3 install -r requirements.txt
+
+```
+# Instructions for Database servers
+```
 sudo apt update
 sudo apt install mysql-server
 sudo mysql_secure_installation
@@ -39,37 +51,10 @@ mysql -u user -p
 
 sudo apt install python3-pip
 pip3 install -r requirements.txt
-tmux
+```
+# tmux
+```
 tmx attach-session -t server
 tmux new -s server
-About
-Database Server part of our whole DS project
 
-Resources
- Readme
-Stars
- 1 star
-Watchers
- 1 watching
-Forks
- 0 forks
-Releases
-No releases published
-Packages
-No packages published
-Contributors 4
-@ankit-bagde
-ankit-bagde Ankit Bagde
-@sanketRmeshram
-sanketRmeshram Sanket Meshram
-@berserker1
-berserker1 Aaryan Bhagat
-@adhikansh1999
-adhikansh1999
-Languages
-Python
-100.0%
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
+```
