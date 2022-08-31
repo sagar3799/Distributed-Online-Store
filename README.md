@@ -19,6 +19,7 @@ ssh-add /home/ubuntu/.ssh/id_ed25519
 # copy key to clipboard
 cat /home/ubuntu/.ssh/id_ed25519.pub
 ```
+paste this to https://github.com/settings/keys
 
 Instructions for Database servers
 sudo apt update
