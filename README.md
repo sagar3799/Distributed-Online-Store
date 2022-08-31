@@ -1,18 +1,22 @@
-# Distributed-Online-Store
-Webserver code
+
+# Webserver code
 https://github.com/adhikansh1999/ds_webserver/tree/work
 
-Accessing web servers
+# Accessing web servers
 webserver - http://13.59.136.130:5000/
 bacup_webserver - http://18.219.37.235:5000/
-Fault tolerant messages
+
+
+# Fault tolerant messages
 node 'x' with 'ip' just died
 
-setup git on server via ssh
+# setup git on server via ssh
 ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
 ssh-add /home/ubuntu/.ssh/id_ed25519
 
+# copy key to clipboard
+cat /home/ubuntu/.ssh/id_ed25519.pub
 # copy key to clipboard
 cat /home/ubuntu/.ssh/id_ed25519.pub
 paste this to https://github.com/settings/keys
