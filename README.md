@@ -8,7 +8,9 @@ bacup_webserver - http://18.219.37.235:5000/
 
 
 # Fault tolerant messages
+```
 node 'x' with 'ip' just died
+```
 
 # setup git on server via ssh
 ```
